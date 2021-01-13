@@ -1,34 +1,24 @@
 """
 Chatbot
-Author: 
-Period/Core: 
+Author: Brooke Fulks
+Period/Core: 3
 
 """
 
-import os
-import importlib.util
+n = input("What is your name:")
+print ("Hi" + " "+ n)
+if n == "brooke":
+  print ("My name is also brooke")
+else:
+  print ("My name is Brooke")
 
-import random
-
-def run_tests():
-  """
-  This function will check for the pytest module
-  before calling it to run the included tests.py
-  """
-  if importlib.util.find_spec('pytest') is None: # Check if pytest is installed
-    os.system('python3 -m pip install -q pytest')
-
-  command = "python3 -m pytest --tb=line -v -s tests.py"
-  print(command)
-  os.system(command)
-
-def main():
-  """This function contains all code for the chatbot."""
-  print("Hello!")
+m = input("What would you say your current mood is?")
+if m == "happy":
+  print ("That is good to hear")
+else:
+  print ("It's okay everyone has off days")
 
 
-if __name__ == "__main__":
-  main()
-  t = input("Run pytest? (y/n)").lower()
-  if t == 'y':
-    run_tests()
+
+
+print ("Its was nice to meet you" + " " + n + " " + "I am always here to chat!")
