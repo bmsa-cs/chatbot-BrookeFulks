@@ -9,6 +9,8 @@ n = input("What is your name:")
 print ("Hi" + " "+ n)
 if n == "brooke":
   print ("My name is also brooke")
+elif n == "nathan":
+  print("nathan is also my brothers name")
 else:
   print ("My name is Brooke")
 
@@ -21,4 +23,5 @@ else:
 
 
 
+#Below Is my Final line of code/Closing Statement 
 print ("Its was nice to meet you" + " " + n + " " + "I am always here to chat!")
