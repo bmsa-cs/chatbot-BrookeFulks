@@ -43,7 +43,21 @@ def main():
     print ("That is good to hear")
   else:
     print ("It's okay everyone has off days")
-  
+ 
+
+  print("Here is a positivity quote")
+
+  x = random.randint(1,5)
+  if x == 1:
+    print("Sharing is Caring")
+  elif x == 2:
+    print ("Love yourself")
+  elif x == 3:
+    print("You are Enough")
+  elif x == 4:
+    print ("You are Worthy")
+  elif x == 5:
+    print ("Live Every Day to the Fullest")
 
   s = int(input("How many siblings do you have? "))
   if s == 1:
@@ -53,31 +67,19 @@ def main():
   else:
     print ("That's cool, I only have a younger brother")
 
-  x = random.randint(1,5)
-  if x == 1:
-    print("Hello")
-  elif x == 2:
-    print ("Bye")
-  elif x == 3:
-    print("Same Bro")
-  elif x == 4:
-    print ("Ur dumb")
-  elif x == 5:
-    print ("so what")
-
   c = input("What is your favorite color?")
-  if c == "blue":
+  if c == "blue" or "pink":
     print("That is also my favorite color")
   else:
     print("That is a pretty color")
   
   s = input("Do you play any sports")
   if s == "bowling":
-    print "I also bowl"
+    print ("I also bowl")
   elif s == "no":
-    print "Thats okay you don't have to"
+    print ("Thats okay you don't have to") 
   else:
-    print("Thats  cool sport")
+    print ("Thats  cool sport")
     
   #Below Is my Final line of code/Closing Statement 
   print ("Its was nice to meet you" + " " + n + " " + "I am always here to chat!")
